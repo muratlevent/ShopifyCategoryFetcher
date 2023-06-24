@@ -1,0 +1,1 @@
+# shopify_category_fetcher
