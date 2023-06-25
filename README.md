@@ -51,6 +51,9 @@ Animals & Pet Supplies > Pet Supplies > Bird Supplies > Bird Food
 
 The output represents the hierarchical structure of the fetched categories, with each category on a separate line.
 
+Please note that the program fetches a large number of categories, so the execution time may vary depending on the network and API response times.
+
+
 ## Possible Issues
 
 - Ensure that you have an active internet connection as the program fetches data from the Shopify API.
