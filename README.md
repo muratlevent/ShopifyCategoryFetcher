@@ -1,6 +1,6 @@
 # Shopify Category Fetcher
 
-The Shopify Category Fetcher is a Java program that fetches category data from the Shopify API and saves it to a CSV file. It uses the Jackson Core library for JSON processing.
+The Shopify Category Fetcher is a Java program that fetches category data from the Shopify and saves it to a CSV file. It uses the Jackson Core library for JSON processing.
 
 ## Technologies Used
 
@@ -56,15 +56,19 @@ Please note that the program fetches a large number of categories, so the execut
 
 ## Possible Issues
 
-- Ensure that you have an active internet connection as the program fetches data from the Shopify API.
+- Ensure that you have an active internet connection as the program fetches data from the Shopify.
 
 - Verify that the provided file path to the JAR file is correct when running the program using the java -jar command.
 
 - If there are any changes to the Shopify API or its response format, the program may need to be updated accordingly.
 
-- Make sure you have proper access credentials and permissions to fetch data from the Shopify API.
+- Make sure you have proper access credentials and permissions to fetch data from the Shopify.
 
-- If you encounter any issues or errors, please check the console output for error messages and consult the program's documentation for troubleshooting steps.
+- If the program is interrupted, the categories will be saved to the file until a certain checkpoint.
+
+- If you encounter any issues or errors, please check the console output for error messages.
+
+
 
 ## License
 
