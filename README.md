@@ -13,7 +13,9 @@ The Shopify Category Fetcher is a Java program that fetches category data from t
 
 2. Jackson Core has been added to the dependency section of the pom.xml file to make the changes related to Json.
 
-3. Run the program using the following command below:<br>
+3. THe `ShopifyCategories.jar` program is in the `/ShopifyCategories/out/artifacts/ShopifyCategories_jar`
+
+4. Run the program using the following command below:<br>
 ```
 java -jar /ShopifyCategories/out/artifacts/ShopifyCategories_jar/ShopifyCategories.jar
 ```
