@@ -9,7 +9,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class ShopifyCategories {
-    private static final int totalRequests = 5600;
+    private static final int TOTAL_REQUESTS = 5600;
 
     private BufferedWriter writer;
     private ArrayList<String> taxonomyList;
